@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.332" height="42.476" viewBox="0 0 37.332 42.476">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="mail_12_" data-name="mail (12)" transform="translate(-31)">
+    <g id="Group_1033" data-name="Group 1033" transform="translate(40.955 4.978)">
+      <g id="Group_1032" data-name="Group 1032" transform="translate(0)">
+        <path id="Path_8969" data-name="Path 8969" d="M159.711,60a8.709,8.709,0,0,0-4.688,16.05,8.891,8.891,0,0,0,8.663.473,1.244,1.244,0,0,0-1.04-2.261,6.447,6.447,0,0,1-6.28-.308,6.221,6.221,0,1,1,9.568-5.244,1.244,1.244,0,0,1-2.489.019c0-.006,0-.013,0-.019a3.739,3.739,0,1,0-1.244,2.78,3.731,3.731,0,0,0,6.222-2.78A8.721,8.721,0,0,0,159.711,60Zm1.227,8.91a1.241,1.241,0,1,1,.009-.342A1.245,1.245,0,0,0,160.938,68.91Z" transform="translate(-151 -60)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_1035" data-name="Group 1035" transform="translate(31)">
+      <g id="Group_1034" data-name="Group 1034" transform="translate(0)">
+        <path id="Path_8970" data-name="Path 8970" d="M68.332,16.341a1.253,1.253,0,0,0-.364-.878L63.354,10.85V1.244A1.244,1.244,0,0,0,62.11,0H37.222a1.244,1.244,0,0,0-1.244,1.244V10.85l-4.613,4.613-.012.014a1.25,1.25,0,0,0-.352.864v22.4a3.737,3.737,0,0,0,3.733,3.733H64.6a3.737,3.737,0,0,0,3.733-3.733v-22.4ZM63.354,14.37l1.973,1.973-1.973,1.973Zm-24.888-3h0V2.489h22.4v8.876h0v9.439l-6.737,6.737H45.2l-6.737-6.737Zm-2.489,3v3.947L34,16.343ZM33.489,38.227V19.347l9.44,9.44Zm1.76,1.76L45.2,30.032h8.924l9.955,9.955Zm30.595-1.76-9.44-9.44,9.44-9.44Z" transform="translate(-31)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

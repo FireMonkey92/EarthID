@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.7" height="73" viewBox="0 0 62.7 73">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="security" transform="translate(-36.123 0)">
+    <g id="Group_973" data-name="Group 973" transform="translate(36.123 0)">
+      <g id="Group_972" data-name="Group 972" transform="translate(0 0)">
+        <path id="Path_8911" data-name="Path 8911" d="M97.388,10.423,68.188.123a2.15,2.15,0,0,0-1.43,0l-29.2,10.3a2.15,2.15,0,0,0-1.435,2.027V27.595A48.788,48.788,0,0,0,66.656,72.839a2.149,2.149,0,0,0,1.621.006A48.789,48.789,0,0,0,98.822,27.6V12.451A2.15,2.15,0,0,0,97.388,10.423Zm-29.915,58.1A44.288,44.288,0,0,1,40.423,27.595V13.972L67.473,4.43l27.05,9.542V27.6h0A44.287,44.287,0,0,1,67.473,68.523Z" transform="translate(-36.123 0)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_975" data-name="Group 975" transform="translate(46.62 12.995)">
+      <g id="Group_974" data-name="Group 974" transform="translate(0)">
+        <path id="Path_8912" data-name="Path 8912" d="M130.6,91.142A20.853,20.853,0,1,0,151.45,112,20.877,20.877,0,0,0,130.6,91.142Zm0,37.406A16.553,16.553,0,1,1,147.15,112,16.572,16.572,0,0,1,130.6,128.548Z" transform="translate(-109.744 -91.142)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_977" data-name="Group 977" transform="translate(61.767 21.525)">
+      <g id="Group_976" data-name="Group 976">
+        <path id="Path_8913" data-name="Path 8913" d="M221.686,161.142a1.406,1.406,0,0,1,0-2.813h3.556a2.15,2.15,0,1,0,0-4.3h-1.406v-.91a2.15,2.15,0,1,0-4.3,0v1.332a5.705,5.705,0,0,0,2.15,10.99,1.406,1.406,0,0,1,0,2.813H218.13a2.15,2.15,0,0,0,0,4.3h1.406v.91a2.15,2.15,0,1,0,4.3,0v-1.332a5.705,5.705,0,0,0-2.15-10.99Z" transform="translate(-215.98 -150.969)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

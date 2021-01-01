@@ -1,0 +1,144 @@
+.brand-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 5% 0 5%;
+  @media (max-width: 768px) {
+    // flex-wrap: wrap;
+  }
+}
+.brand-content-text_1 {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 2.04;
+  margin: 0;
+}
+.brand-content-text_2 {
+  align-self: center;
+  font-size: 4rem;
+  font-weight: 600;
+  background-image: linear-gradient(110deg, #7400b8 4%, #48bfe3 53%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 0;
+  padding-left: 1%;
+}
+.brand-content-text_3 {
+  align-self: center;
+  font-size: 2rem;
+  padding-bottom: 10px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+.line {
+  margin-top: 3%;
+  box-sizing: content-box;
+  align-self: center;
+  width: 10%;
+  border-bottom: 10px solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-image: linear-gradient(110deg, #7400b8 4%, #48bfe3 53%);
+  border-image-slice: 1;
+  margin: 0;
+}
+
+.brand-img {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1%;
+  margin: 7% 15% 5% 20%;
+}
+.brand-img-monzo {
+  width: 60%;
+}
+.brand-img-rappi {
+  margin-top: 7%;
+  width: 45%;
+}
+.brand-img-hsbc {
+  width: 50%;
+  margin-top: 2%;
+}
+.brand-img-united {
+  margin-top: 2%;
+  width: 50%;
+  margin-top: 2%;
+}
+.brand-content-box {
+  align-self: center;
+  width: 60%;
+  display: flex;
+  background: linear-gradient(to bottom, #7400b8, #48bfe3);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  padding-right: 5%;
+  color: white;
+  margin-top: 5%;
+  min-width: 700px;
+  @media (max-width: 768px) {
+    min-width: 100%;
+    // display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.brand-content-box-img {
+  height: 20%;
+  width: 70%;
+  margin-top: -15%;
+  margin-left: -5%;
+  @media (max-width: 768px) {
+    // width: 90%;
+    // margin-top: -15%;
+    // margin-left: -5%;
+    // height: 350px;
+    // object-fit: cover;
+  }
+}
+
+.brand-content-box_container {
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+.brand-text_quote-auth {
+  text-transform: uppercase;
+  margin-top: 10%;
+  padding-top: 5%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.brand-name {
+  text-transform: uppercase;
+  margin: 0;
+  color: #72efdd;
+}
+.brand-btn-card {
+  border: none;
+  background: transparent;
+  color: white;
+  margin: 21% 0 5% -35%;
+  font-weight: bold;
+  line-height: 1.5;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  @media (max-width: 700px) {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+}

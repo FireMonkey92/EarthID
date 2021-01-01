@@ -1,0 +1,68 @@
+.faceId-content {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 2rem 2rem 2rem;
+  color: #ffffff;
+}
+.faceId-content_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 70%;
+  align-self: center;
+  margin-top: 3rem;
+}
+.faceId-content_text-1 {
+  font-family: rubik;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+.faceId-content_text-2 {
+  font-weight: 530;
+  font-size: 2rem;
+  margin: 1rem 0 1rem 0;
+  line-height: 1.33;
+  text-align: center;
+}
+.faceId-content_text-3 {
+  font-size: 1.1rem;
+  margin-top: 1%;
+  width: 95%;
+  text-align: center;
+}
+// .faceId-content_text-3-spaning {
+//   padding-left: 10%;
+// }
+.faceId-content_dynamic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 7% 5% 10%;
+  grid-gap: 5%;
+}
+.faceId-content_dynamic-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5% 5% 5%;
+}
+.faceId-content_dynamic-1-title {
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.faceId-content_dynamic-1-desc {
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 80%;
+}
+.faceId-content_dynamic-1-img {
+  width: 80%;
+  margin-top: -4rem;
+  margin-left: -2rem;
+}
+.faceId-content_text-3-spaning {
+  margin-top: 1%;
+  font-size: 1.1rem;
+}

@@ -1,0 +1,260 @@
+$white: #ffffff;
+$bright-magenta: #ee00ff;
+$azure: #13b9eb;
+.homepage {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 0 0.5px;
+  background-color: #fef9ff;
+  font-family: Titillium Web;
+}
+.header {
+  width: 100vw;
+  padding: 9px 22px 121px 44.5px;
+  background-image: url('../../assest/Home/Group\ 740.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 60%;
+  }
+  @media (max-width: 500px) {
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    background-size: contain;
+    margin-top: 0;
+  }
+}
+.header-overlap {
+  width: 80vw;
+  height: 200px;
+  margin: 0px 7.5% 0 7.5%;
+  border-radius: 2px;
+  background-image: url('../../assest/Home/Group\ 741.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 90%;
+  z-index: 5;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  @media (max-width: 450px) {
+    margin-top: -25%;
+  }
+}
+.vedio-content_space {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assest/Home/network-back_540.png');
+  opacity: 0.8;
+  margin-top: -10%;
+}
+.body-content_1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.body-content_1-text {
+  margin: 7.5% 0 10% 0;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.13;
+  align-self: center;
+}
+
+.body-content-1_img {
+  margin-top: -25rem;
+  width: 100%;
+  margin-left: -1.5rem;
+}
+.face-scan-adobe_1 {
+  width: 100vw;
+  margin: -2rem 0 0 0;
+  opacity: 0.9;
+  background-image: url('../../assest/Home/face_id_746.png');
+  background-size: cover;
+}
+.body-content_1-card {
+  width: 100vw;
+}
+.face-scan-adobe_2 {
+  width: 100vw;
+  padding-bottom: 100px;
+  background-image: url('../../assest/Home/Group\ 747.png');
+  background-size: cover;
+}
+.brand-support {
+  width: 100vw;
+}
+.footer {
+  width: 100vw;
+}
+@media only screen and (max-width: 1157px) {
+  .homepage {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-content_card-1 {
+    min-width: 300px;
+    height: 350px;
+  }
+}
+
+.static-card {
+  margin-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+  .body-content_card {
+    display: block !important;
+    position: unset !important;
+  }
+
+  .body-content_card-1 {
+    width: 100% !important;
+    /* display: block; */
+    margin: 25px 0px;
+  }
+
+  .body-content {
+    height: 100%;
+  }
+
+  .body-content_text {
+  }
+
+  img.body-content-2_img {
+    display: none;
+  }
+
+  p.body-content_text-2 {
+    width: 100%;
+  }
+
+  .body-content_text {
+    text-align: center;
+  }
+
+  .face-scan-adobe_2 {
+    display: flex;
+    align-items: center;
+  }
+  .faceId-content_text {
+    width: 100%;
+  }
+
+  .faceId-content_dynamic {
+    display: block !important;
+  }
+
+  .faceId-content_dynamic {
+    margin: 0px !important;
+  }
+  .static-card {
+    display: block;
+  }
+
+  .static-card_1:not(:first-child) {
+    margin-top: 254px;
+  }
+
+  .face-scan-adobe_1 {
+    margin-top: 440px;
+  }
+
+  .faceId-content_dynamic {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .faceId-content_text {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .faceId-content_dynamic-1 {
+    display: block;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  img.faceId-content_dynamic-1-img {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  p.faceId-content_dynamic-1-desc {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  img.phone__img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-overlap {
+    height: 150px;
+    width: 96%;
+    left: 2%;
+    margin: 0px;
+    background-repeat: repeat;
+  }
+
+  .overlap-text {
+    width: 61%;
+  }
+  .vedio-content_space {
+    margin-top: 20%;
+  }
+
+  .vedio-content {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .overlap-text {
+    width: 100%;
+  }
+  .header-overlap {
+    height: 160px;
+    // width: 80%;
+  }
+  .vedio-content_space {
+    margin-top: 40%;
+  }
+  .overlap-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .vedio-content_space {
+    height: 300px;
+  }
+}

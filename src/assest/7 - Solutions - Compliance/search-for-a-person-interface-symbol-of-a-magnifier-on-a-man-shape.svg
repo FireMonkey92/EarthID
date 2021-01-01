@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.001" height="71" viewBox="0 0 71.001 71">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="search-for-a-person-interface-symbol-of-a-magnifier-on-a-man-shape" transform="translate(0.5 0.5)">
+    <g id="Group_971" data-name="Group 971" transform="translate(0)">
+      <path id="Path_8908" data-name="Path 8908" d="M111.117,113.945A17.257,17.257,0,0,0,123.4,108.85a17.652,17.652,0,0,0,1.7-1.963l-.5-2.711a1.928,1.928,0,0,0-1.928-1.928l-4.695-.957a30.742,30.742,0,0,1-2.3-3.372,9.24,9.24,0,0,0,3.56-4.513,2.241,2.241,0,0,0,.576-4.362,8.695,8.695,0,0,0-17.381,0A2.241,2.241,0,0,0,103,93.406a9.24,9.24,0,0,0,3.56,4.513,30.745,30.745,0,0,1-2.289,3.359l-4.7.969a1.928,1.928,0,0,0-1.928,1.928l-.5,2.706A17.359,17.359,0,0,0,111.117,113.945Z" transform="translate(-85.508 -70.961)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      <path id="Path_8909" data-name="Path 8909" d="M350.863,344.053a28.1,28.1,0,0,1-6.78,6.783,2.133,2.133,0,0,0-.892,1.454,2.071,2.071,0,0,0,.476,1.61l13.879,16.362a4.825,4.825,0,0,0,7.2.321l5.867-5.867a4.825,4.825,0,0,0-.329-7.206l-16.348-13.87a2.078,2.078,0,0,0-3.071.412Z" transform="translate(-302.069 -302.043)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      <path id="Path_8910" data-name="Path 8910" d="M25.609,51.218A25.609,25.609,0,1,0,0,25.609,25.61,25.61,0,0,0,25.609,51.218Zm0-44.816A19.192,19.192,0,1,1,6.4,25.609,19.228,19.228,0,0,1,25.609,6.4Z" transform="translate(0)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

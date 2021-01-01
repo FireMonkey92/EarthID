@@ -1,0 +1,44 @@
+.headerHalf-main {
+  width: 100vw;
+  height: 70vh;
+  background-image: url('../../../assest/Home/Group\ 740.png');
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  color: white;
+}
+.headerHalf-title {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 2.34;
+  font-weight: bold;
+}
+.headerHalf-uris {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.8;
+}
+.uris-class {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+
+@media (max-width: 800px){
+  .headerHalf-main > div {
+    position: absolute;
+    top: 17%;
+  }
+  
+  .headerHalf-main {
+    padding-top: 60%;
+    height: 0px;
+  }
+  
+  p.headerHalf-title {
+    font-size: 1.8rem;
+  }
+}

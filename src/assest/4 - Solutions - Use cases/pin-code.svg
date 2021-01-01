@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.5" height="66.5" viewBox="0 0 66.5 66.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="pin-code" transform="translate(0.25 0.25)">
+    <g id="Group_961" data-name="Group 961" transform="translate(0)">
+      <g id="Group_960" data-name="Group 960">
+        <ellipse id="Ellipse_130" data-name="Ellipse 130" cx="3" cy="2" rx="3" ry="2" transform="translate(30 29)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <path id="Path_8868" data-name="Path 8868" d="M121.734,45.372h21.141a7.743,7.743,0,0,0,7.734-7.734V23.716a7.743,7.743,0,0,0-7.734-7.734h-.519V9.848a10.057,10.057,0,0,0-20.109,0v6.134h-.513A7.743,7.743,0,0,0,114,23.716V37.638A7.743,7.743,0,0,0,121.734,45.372ZM127.4,9.848a4.9,4.9,0,0,1,9.8,0v6.134h-9.8Zm-8.247,13.868a2.581,2.581,0,0,1,2.578-2.578h21.141a2.581,2.581,0,0,1,2.578,2.578V37.638a2.581,2.581,0,0,1-2.578,2.578H121.734a2.581,2.581,0,0,1-2.578-2.578Z" transform="translate(-99.305)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <circle id="Ellipse_131" data-name="Ellipse 131" cx="2.5" cy="2.5" r="2.5" transform="translate(25 50)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <ellipse id="Ellipse_132" data-name="Ellipse 132" cx="2" cy="2.5" rx="2" ry="2.5" transform="translate(16 50)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <path id="Path_8869" data-name="Path 8869" d="M58.264,313.967a2.578,2.578,0,0,0-1.285,4.993,5.153,5.153,0,0,1,3.865,4.994v5.156a5.162,5.162,0,0,1-5.156,5.156H10.313a5.162,5.162,0,0,1-5.156-5.156v-5.156a5.184,5.184,0,0,1,3.694-4.947,2.578,2.578,0,0,0-1.458-4.946,10.389,10.389,0,0,0-5.3,3.662A10.223,10.223,0,0,0,0,323.955v5.156a10.324,10.324,0,0,0,10.313,10.313H55.688A10.324,10.324,0,0,0,66,329.111v-5.156A10.307,10.307,0,0,0,58.264,313.967Z" transform="translate(0 -273.423)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <circle id="Ellipse_133" data-name="Ellipse 133" cx="2.5" cy="2.5" r="2.5" transform="translate(36 50)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+        <ellipse id="Ellipse_134" data-name="Ellipse 134" cx="2" cy="2.5" rx="2" ry="2.5" transform="translate(46 50)" stroke="#fff" stroke-width="0.5" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

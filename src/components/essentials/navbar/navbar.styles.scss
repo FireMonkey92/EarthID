@@ -1,0 +1,9 @@
+.brand-logo {
+  width: 70%;
+}
+nav.navbar {
+  background-color: transparent !important;
+  @media (max-width: 600px) {
+    background-color: transparent !important;
+  }
+}

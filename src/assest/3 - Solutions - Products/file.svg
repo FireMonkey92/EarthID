@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="file" transform="translate(0.5 0.5)">
+    <g id="Group_894" data-name="Group 894" transform="translate(23.906 12.086)">
+      <g id="Group_893" data-name="Group 893">
+        <path id="Path_8823" data-name="Path 8823" d="M197.93,91H181.992a1.992,1.992,0,1,0,0,3.984H197.93a1.992,1.992,0,1,0,0-3.984Z" transform="translate(-180 -91)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_896" data-name="Group 896" transform="translate(23.906 20.055)">
+      <g id="Group_895" data-name="Group 895">
+        <path id="Path_8824" data-name="Path 8824" d="M197.93,151H181.992a1.992,1.992,0,1,0,0,3.984H197.93a1.992,1.992,0,1,0,0-3.984Z" transform="translate(-180 -151)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_898" data-name="Group 898" transform="translate(7.969 28.023)">
+      <g id="Group_897" data-name="Group 897">
+        <path id="Path_8825" data-name="Path 8825" d="M93.867,211H61.992a1.992,1.992,0,0,0,0,3.984H93.867a1.992,1.992,0,0,0,0-3.984Z" transform="translate(-60 -211)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_900" data-name="Group 900" transform="translate(7.969 35.992)">
+      <g id="Group_899" data-name="Group 899">
+        <path id="Path_8826" data-name="Path 8826" d="M86.645,271H61.992a1.992,1.992,0,0,0,0,3.984H86.645a1.992,1.992,0,1,0,0-3.984Z" transform="translate(-60 -271)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_902" data-name="Group 902" transform="translate(0)">
+      <g id="Group_901" data-name="Group 901">
+        <path id="Path_8827" data-name="Path 8827" d="M51.93,35.992V5.977A6.085,6.085,0,0,0,45.82,0H17.929a2.011,2.011,0,0,0-1.414.589L.578,16.66A2.011,2.011,0,0,0,0,18.063V62.023A5.983,5.983,0,0,0,5.977,68H51.93a16,16,0,1,0,0-32.008ZM15.938,6.83v9.24H6.774ZM5.977,64.016a1.994,1.994,0,0,1-1.992-1.992V20.055H17.93a1.992,1.992,0,0,0,1.992-1.992V3.984h25.9a2.116,2.116,0,0,1,2.125,1.992V36.488a16.119,16.119,0,0,0-9.929,7.473H9.961a1.992,1.992,0,0,0,0,3.984H36.368a15.791,15.791,0,0,0-.508,3.984H9.961a1.992,1.992,0,0,0,0,3.984h26.4a16.138,16.138,0,0,0,5.031,8.1Zm45.953,0A12.248,12.248,0,0,1,39.844,51.93a12.087,12.087,0,0,1,24.172,0A12.248,12.248,0,0,1,51.93,64.016Z" transform="translate(0)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_904" data-name="Group 904" transform="translate(43.828 47.945)">
+      <g id="Group_903" data-name="Group 903">
+        <path id="Path_8828" data-name="Path 8828" d="M345.631,361.6a1.992,1.992,0,0,0-2.817-.023l-6.716,6.606-2.721-2.633a1.992,1.992,0,0,0-2.771,2.863l4.117,3.984a1.992,1.992,0,0,0,2.782-.011l8.1-7.969A1.992,1.992,0,0,0,345.631,361.6Z" transform="translate(-330 -361)" stroke="#fff" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+.overlap-box-techno {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  align-self: center;
+  box-shadow: 0 1.5px 18.5px 0 #00000029;
+  padding: 5%;
+  margin: 10% 10% 10% 10%;
+}
+.techno-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 5% 5%;
+}
+.techno-title {
+  color: #323132;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 600;
+}
+.techno-img {
+  margin-top: -15%;
+}
+.rest-para {
+  color: #323132;
+  opacity: 0.8;
+  font-size: 1rem;
+}

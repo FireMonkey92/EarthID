@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.049" height="47.305" viewBox="0 0 71.049 47.305">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7400b8"/>
+      <stop offset="1" stop-color="#48bfe3"/>
+    </linearGradient>
+  </defs>
+  <g id="id-card_1_" data-name="id-card (1)" transform="translate(0.15 0.15)">
+    <g id="Group_565" data-name="Group 565" transform="translate(0 0)">
+      <g id="Group_564" data-name="Group 564">
+        <path id="Path_8464" data-name="Path 8464" d="M63.875,71.5H6.857A6.859,6.859,0,0,0,0,78.357v33.291a6.859,6.859,0,0,0,6.857,6.857H63.891a6.859,6.859,0,0,0,6.857-6.857V78.357A6.884,6.884,0,0,0,63.875,71.5Zm3.553,40.131h-.017a3.539,3.539,0,0,1-3.537,3.537H6.857a3.539,3.539,0,0,1-3.537-3.537V78.357a3.54,3.54,0,0,1,3.537-3.537H63.891a3.54,3.54,0,0,1,3.537,3.537v33.274Z" transform="translate(0 -71.5)" stroke="#fef9ff" stroke-width="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_567" data-name="Group 567" transform="translate(41.061 26.234)">
+      <g id="Group_566" data-name="Group 566">
+        <path id="Path_8465" data-name="Path 8465" d="M268.437,229.5H248.96a1.66,1.66,0,0,0,0,3.321h19.476a1.66,1.66,0,1,0,0-3.321Z" transform="translate(-247.3 -229.5)" stroke="#fef9ff" stroke-width="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_569" data-name="Group 569" transform="translate(41.061 17.6)">
+      <g id="Group_568" data-name="Group 568">
+        <path id="Path_8466" data-name="Path 8466" d="M259.786,177.5H248.96a1.66,1.66,0,0,0,0,3.321h10.826a1.66,1.66,0,0,0,0-3.321Z" transform="translate(-247.3 -177.5)" stroke="#fef9ff" stroke-width="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_571" data-name="Group 571" transform="translate(6.808 8.302)">
+      <g id="Group_570" data-name="Group 570">
+        <path id="Path_8467" data-name="Path 8467" d="M67.417,121.5H46.131A5.141,5.141,0,0,0,41,126.614v20.472a5.141,5.141,0,0,0,5.114,5.131h21.3a5.141,5.141,0,0,0,5.131-5.114V126.631A5.123,5.123,0,0,0,67.417,121.5ZM49.783,148.73a5.969,5.969,0,0,1,5.894-5.147h2.574a5.969,5.969,0,0,1,5.894,5.147Zm19.443-22.166v20.423a1.708,1.708,0,0,1-1.677,1.743h-.083a9.284,9.284,0,0,0-9.215-8.468H55.678a9.272,9.272,0,0,0-9.215,8.468H46.2a1.817,1.817,0,0,1-1.876-1.743V126.564a1.817,1.817,0,0,1,1.876-1.743H67.483a1.705,1.705,0,0,1,1.743,1.66Z" transform="translate(-41 -121.5)" stroke="#fef9ff" stroke-width="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_573" data-name="Group 573" transform="translate(16.571 13.399)">
+      <g id="Group_572" data-name="Group 572">
+        <path id="Path_8468" data-name="Path 8468" d="M110.426,154.026a6.223,6.223,0,1,0,1.826,4.4A6.249,6.249,0,0,0,110.426,154.026Zm-2.358,6.459a2.886,2.886,0,1,1,.863-2.042A2.891,2.891,0,0,1,108.069,160.485Z" transform="translate(-99.8 -152.2)" stroke="#fef9ff" stroke-width="0.3" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

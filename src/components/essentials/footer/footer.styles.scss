@@ -1,0 +1,148 @@
+$bright-magenta: #ee00ff;
+$azure: #13b9eb;
+.footer-main {
+  display: flex;
+  flex-direction: column;
+}
+.footer-sec {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../../assest/Home/network-back_540.png');
+  width: 100vw;
+  height: 80vh;
+  @media (max-width: 700px) {
+    height: auto;
+    padding: 20px 0px 20px 0px;
+  }
+}
+.get-started {
+  align-self: center;
+  font-size: 3rem;
+  margin: 15% 0 0 0;
+  text-transform: capitalize;
+  text-align: center;
+  @media (max-width: 900px) {
+    font-size: 2.5rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
+}
+.earthid-footer-desc {
+  align-self: center;
+  width: 60%;
+  font-size: 1.2rem;
+  text-align: center;
+  opacity: 0.8;
+  @media (max-width: 700px) {
+    width: 80%;
+  }
+}
+.footer-btn_1 {
+  align-self: center;
+  border: none;
+  width: 15%;
+  height: 7%;
+  text-transform: uppercase;
+  background: linear-gradient(91deg, #7400b8 0%, #48bfe3 100%);
+  color: white;
+  margin-top: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  font-weight: bold;
+  @media (max-width: 900px) {
+    width: 25%;
+  }
+  @media (max-width: 600px) {
+    width: 30%;
+    padding: 10px;
+  }
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #7400b8, #48bfe3 84%);
+  color: white;
+  height: 100%;
+}
+.newsletter-subs {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2.15;
+  font-size: 0.9rem;
+  margin-top: 5%;
+  margin-right: 10%;
+}
+.rest-footer-info {
+  display: grid;
+  margin: 5% 10% 5% 10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10%;
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    display: block;
+    text-align: center;
+  }
+}
+.content-footer-info {
+  display: flex;
+  flex-direction: column;
+}
+.logo-earthId {
+  margin-top: 10%;
+  width: 40%;
+  @media (max-width: 600px) {
+    margin: auto;
+  }
+}
+.earthid-desc {
+  margin-top: 10%;
+  line-height: 1.32;
+  font-size: 0.9rem;
+}
+.info-title {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.info-links {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  margin-top: -1%;
+}
+.div-social {
+  display: flex;
+  width: 100%;
+  @media (max-width: 600px) {
+    // text-align: center;
+    // display: table;
+    // margin: auto;
+    justify-content: center;
+  }
+}
+.img-link-media {
+  width: 100%;
+}
+.link-media {
+  margin-right: 5%;
+}
+.btn-title {
+  margin-bottom: 1%;
+  font-size: 0.9rem;
+  @media (max-width: 900px) {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 0.6rem;
+  }
+}
+.links,
+.links:focus {
+  text-decoration: none;
+  color: inherit;
+}

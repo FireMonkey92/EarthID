@@ -1,0 +1,48 @@
+.headerHalf-main-distribute {
+  width: 100vw;
+  height: 70vh;
+  background-image: url('../../../assest/header-img/Products.jpg');
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  color: white;
+}
+.headerHalf-title {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 2.34;
+  font-weight: bold;
+}
+.headerHalf-uris {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.8;
+}
+.uris-class {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .headerHalf-main-distribute > div {
+    position: absolute;
+    top: 10%;
+  }
+
+  .headerHalf-main-distribute {
+    padding-top: 60%;
+    height: 0px;
+  }
+
+  p.headerHalf-title {
+    font-size: 1.8rem;
+  }
+}
+.headerHalf-content {
+  @media (max-width: 450) {
+    top: 10%;
+  }
+}

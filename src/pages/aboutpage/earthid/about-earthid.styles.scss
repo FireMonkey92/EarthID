@@ -1,0 +1,100 @@
+.header-overlap-earthid {
+  width: 85vw;
+  margin: 5% 7.5% 0 7.5%;
+  height: 30vh;
+  border-radius: 2px;
+  background-image: url('../../../assest/Home/Group\ 741.png');
+  background-size: 100%;
+}
+.Box-Earth-id {
+  width: 90%;
+  height: 100%;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  color: #323132;
+  margin: 5%;
+  border-radius: 5px;
+  box-shadow: 0 1.5px 8px 0 #6930c31a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-bottom: 4%;
+  background: #fff;
+  @media (max-width: 600px) {
+    padding-bottom: 100px;
+  }
+  @media (max-width: 750px) {
+    padding-bottom: 300px;
+  }
+}
+.title-earth-id {
+  font-weight: 600;
+  font-size: 2rem;
+  opacity: 0.9;
+  margin: 5%;
+}
+.first-flex-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 5%;
+  align-self: center;
+  margin: 10%;
+  width: 80%;
+}
+.text-content-earth {
+  @media (max-width: 900px) {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+//about
+.headerHalf-main-about {
+  width: 100vw;
+  height: 70vh;
+  background-image: url('../../../assest/header-img/About.jpg');
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  color: white;
+}
+.headerHalf-title {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 2.34;
+  font-weight: bold;
+}
+.headerHalf-uris {
+  font-size: 1.2rem;
+  margin: 0;
+  opacity: 0.8;
+}
+.uris-class {
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .headerHalf-main-about > div {
+    position: absolute;
+    top: 10%;
+  }
+
+  .headerHalf-main-about {
+    padding-top: 60%;
+    height: 0px;
+  }
+
+  p.headerHalf-title {
+    font-size: 1.8rem;
+  }
+}
+.headerHalf-content {
+  @media (max-width: 450) {
+    top: 10%;
+  }
+}

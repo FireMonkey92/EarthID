@@ -1,0 +1,75 @@
+.overlap-content-overall {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.overlap-btn-overall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.overlap-btn_1-overall {
+  font-family: Titillium Web;
+  font-weight: 400;
+  width: 14rem;
+  height: 2.5rem;
+  border: none;
+  padding: 5.5px 13px 5px 12.5px;
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  font-size: 1rem;
+  @media (max-width: 500) {
+    width: 8rem;
+    font-size: 0.9rem;
+  }
+}
+.overlap-text-overall {
+  font-family: Titillium Web;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 3%;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+}
+.overlap-text_1-overall {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  justify-content: flex-start;
+  letter-spacing: -0.3px;
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+}
+.overlap-text_2-overall {
+  font-size: 02.5rem;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 600;
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
+}
+.overlap-text_3-overall {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-top: 10px;
+  opacity: 0.9;
+}

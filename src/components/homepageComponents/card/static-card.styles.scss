@@ -1,0 +1,70 @@
+.static-card {
+  display: grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  height: 100%;
+  font-family: rubik;
+  color: #ffffff;
+  align-items: center;
+}
+#image_id {
+  align-self: center;
+  margin: 5% 5% 5% 5%;
+}
+.static-card_1 {
+  display: flex;
+  margin: 7.5% 5% 0 5%;
+  flex-direction: column;
+  padding: 4% 2% 0 2%;
+  background: linear-gradient(to bottom, #7400b8, #48bfe3);
+  text-align: center;
+  height: 780px;
+  position: relative;
+}
+.static-card-text_bold {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.static-card-text_light {
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  padding: 0 3% 0 3%;
+  text-align: center;
+  margin-top: 10%;
+}
+.static-card_btn {
+  width: 7rem;
+  height: 2.5rem;
+  margin: 4rem;
+  padding: 0.8rem 0 0.8rem 0;
+  border-radius: 2px;
+  background-color: #ffffff;
+  font-weight: 600;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+.phone__img {
+  align-self: center;
+  width: 70%;
+  height: 100%;
+  margin: 8rem 2rem 2rem 2rem;
+}
+.icon {
+  width: 80px;
+  align-self: center;
+  margin: 1rem;
+}
+.icon-1 {
+  width: 90px;
+  align-self: center;
+  margin: 2rem;
+}
