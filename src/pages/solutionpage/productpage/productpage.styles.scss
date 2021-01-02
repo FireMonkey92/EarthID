@@ -47,12 +47,17 @@
 .header-over {
   width: 85vw;
   margin: 5% 7.5% 0 7.5%;
-  height: 30vh;
+  // height: 30vh;
   border-radius: 2px;
   background-image: url('../../../assest/Home/Group\ 741.png');
   background-size: 100%;
+  
+  .overlap-content{
+    padding-bottom: 30px;
+  }
   @media (max-width: 500px) {
-    height: 200px;
+    // height: 200px;
+    
   }
 }
 .grid-product-component {

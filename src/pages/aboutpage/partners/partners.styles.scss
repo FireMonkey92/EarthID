@@ -1,7 +1,7 @@
 .content-partners {
   display: flex;
   flex-direction: row;
-  padding-left: 3%;
+  padding: 0 3% ;
   @media (max-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -37,6 +37,7 @@
   box-shadow: 0 1.5px 18.5px 0 #00000029;
   padding-bottom: 2%;
   margin-top: -7%;
+  margin-bottom: 50px;
 }
 .img-for-partner {
   width: 100%;
@@ -45,7 +46,7 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: 100%;
+  height: auto;
   background-color: white;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -56,31 +57,24 @@
   align-self: center;
   box-shadow: 0 1.5px 18.5px 0 #00000029;
   margin-top: -2%;
-  padding: 4% 2% 2% 3%;
-  @media (max-width: 1250px) {
-    padding-bottom: 8%;
-  }
-  @media (max-width: 900px) {
-    padding-bottom: 19%;
-  }
-  @media (max-width: 600px) {
-    padding-bottom: 100px;
-  }
+  padding: 50px 50px;;
+  // @media (max-width: 1250px) {
+  //   padding-bottom: 8%;
+  // }
+  // @media (max-width: 900px) {
+  //   padding-bottom: 19%;
+  // }
+  // @media (max-width: 600px) {
+  //   padding-bottom: 100px;
+  // }
   @media (max-width: 550px) {
-    padding-bottom: 350px;
+    padding: 25px 10px;
   }
 }
 .partner-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-gap: 5%;
-  padding: 2% 2% 2% 2%;
-  @media (max-width: 900px) {
-  }
-  @media (max-width: 550px) {
-    padding: 1%;
-    grid-gap: 2%;
-  }
+  grid-gap: 25px 25px;  
 }
 .card-container-partner {
   display: flex;
@@ -88,7 +82,7 @@
   align-items: center;
   padding: 2% 2% 2% 2%;
   text-align: center;
-  width: 80%;
+  // width: 80%;
   border-radius: 5.5px;
   -webkit-border-radius: 5.5px;
   -moz-border-radius: 5.5px;
@@ -98,7 +92,7 @@
   background-color: #fdf9ff;
   height: 280px;
   @media (max-width: 600px) {
-    margin-left: 20px;
+    margin: 0 20px;
   }
 }
 .icon-for-partner {
@@ -135,9 +129,25 @@
   border: none;
   padding-right: 5%;
   color: #323132;
+  box-shadow: 0 1.5px 18.5px 0 #00000029;
   margin-top: 10%;
   @media (max-width: 650px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+    margin-top: 15%;
+    width: 75%;
+    .brand-content-box-img-2{
+      margin-left: 0;
+      margin-top: -60px;
+    }
+    .brand-content-box_container-2{
+      text-align: center;
+    }
+    .brand-btn-card-2{
+      margin-left: 0;
+    }
   }
 }
 .brand-content-box-img-2 {

@@ -8,13 +8,17 @@ export const TcoPage = () => (
   <div className='blog-main'>
     <NavBar />
     <HeaderHalf title='TCO Calculator' uris='TCO Calculator' />
-    <div className='tco-main'>
+    <div className='tco-main1'>
       <div className='tco-content'>
         <p className='tco-content__title'>Total Cost of Ownership Calculator</p>
         <p className='tco-content__desc'>
           Use this calculator to find out how much your online identity verification solution is
           REALLY costing you.
         </p>
+      </div>
+    </div>
+    <div className='tco-main'>
+      <div className='tco-content'>
         <p className='tco-content__title tco-content__title-1'>What&apos;s Behind the Numbers?</p>
         <p className='tco-content__desc'>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -109,6 +113,7 @@ export const TcoPage = () => (
             </label>
             <input type='number' className='calc-flex__input' />
           </div>
+          <button className='footer-btn_1'>SUBMIT TOTAL COST $</button>
         </form>
       </div>
     </div>

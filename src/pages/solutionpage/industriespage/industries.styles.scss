@@ -6,19 +6,19 @@
   display: grid;
   height: 90%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 6%;
-  margin-bottom: 5%;
-  margin-left: 5%;
+  grid-gap: 30px 30px;
+  margin : 5%;
   @media (max-width: 600px) {
     align-items: center;
-    grid-gap: 2%;
+    grid-gap: 20px 20px;
   }
 }
 .large-card {
-  max-width: 300px;
+  // max-width: 300px;
   background-color: white;
+  // min-height: 350px;
+  // width: 85%;
   height: 350px;
-  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,8 +34,9 @@
 .large-card-img {
   width: 100%;
   height: 45%;
-  background-image: cover;
   align-self: center;
+  object-fit: cover;
+  border-radius: inherit;
 }
 .large-card-title {
   text-align: center;
@@ -49,7 +50,8 @@
 .large-card-btn {
   width: 100%;
   height: 40px;
-  margin-top: 310px;
+  // margin-top: 310px;
+  bottom: 0;
   position: absolute;
   background-color: rgba(239, 239, 239, 0.3);
   text-transform: uppercase;
@@ -71,7 +73,7 @@
   padding: 0 3% 0 3%;
 }
 .extra-large-card {
-  width: 110%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,16 +89,17 @@
   }
 }
 .large-card-div {
-  width: 80%;
   display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 5%;
+  grid-gap: 30px 30px;
   justify-items: center;
   margin-top: 5%;
   align-self: center;
-
   @media (max-width: 750px) {
-    grid-gap: 5%;
+    grid-gap: 20px 20px;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
 }
 .extra-large-icon {
@@ -198,8 +201,9 @@
   box-shadow: 0 1.5px 18.5px 0 #00000029;
   &-1 {
     padding-bottom: 100px;
+    margin-top: 50px;
     @media (max-width: 600px) {
-      padding-bottom: 550px;
+      padding-bottom: 20px;
     }
   }
   .box-title {

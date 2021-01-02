@@ -17,10 +17,11 @@
 .cards-div-compliance {
   display: grid;
   height: 100%;
+  width: 100%;
   align-self: center;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 4%;
-  margin-bottom: 5%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px 30px;
+  // margin-bottom: 5%;
   padding-left: 5%;
   padding-right: 3%;
   padding-top: 3%;
@@ -65,7 +66,8 @@
   width: 100%;
   height: 22.5%;
   position: absolute;
-  margin-top: 59%;
+  bottom: 0;
+  // margin-top: 59%;
   background-color: rgba(239, 239, 239, 0.3);
   text-transform: uppercase;
   border: none;

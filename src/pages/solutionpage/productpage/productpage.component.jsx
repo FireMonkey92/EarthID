@@ -113,20 +113,22 @@ export const Product = () => {
           />
         </div>
       </OverlapBoxRest>
-      <OverlapBox className='to-push-behind large-container' title=''>
-        <div className='large-card-div-product'>
-          <ExtraLargeCardProduct
-            icon={network__43}
-            desc='Monzo Bank Uses a 
+      <div style={{ marginTop: '8%', display: 'flex', justifyContent: 'center' }}>
+        <OverlapBox className='to-push-behind large-container' title=''>
+          <div className='large-card-div-product'>
+            <ExtraLargeCardProduct
+              icon={network__43}
+              desc='Monzo Bank Uses a 
             Customer-Centric Approach'
-          />
-          <ExtraLargeCardProduct
-            icon={network__43}
-            desc='Monzo Bank Uses a 
+            />
+            <ExtraLargeCardProduct
+              icon={network__43}
+              desc='Monzo Bank Uses a 
             Customer-Centric Approach'
-          />
-        </div>
-      </OverlapBox>
+            />
+          </div>
+        </OverlapBox>
+      </div>
       <Footer />
     </div>
   );
