@@ -55,8 +55,10 @@
 .phone__img {
   align-self: center;
   width: 70%;
-  height: 100%;
-  margin: 8rem 2rem 2rem 2rem;
+  height: auto;
+  position: absolute;
+  bottom: -20%;
+  // margin: 8rem 2rem 2rem 2rem;
 }
 .icon {
   width: 80px;

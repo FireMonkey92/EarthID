@@ -21,24 +21,22 @@ $azure: #13b9eb;
     width: 100%;
   }
   @media (max-width: 600px) {
-    width: 100%;
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-top: 60%;
+    padding: 20px 0 100px 0;
+    .text-style-3{
+      padding: 0 20px 0 20px !important;
+    }
   }
   @media (max-width: 500px) {
   }
-  @media (max-width: 480px) {
-    width: 100%;
-    background-size: contain;
-    margin-top: 0;
-  }
+  // @media (max-width: 480px) {
+  //   width: 100%;
+  //   background-size: contain;
+  //   margin-top: 0;
+  // }
 }
 .header-overlap {
   width: 80vw;
-  height: 200px;
+  // height: 200px;
   margin: 0px 7.5% 0 7.5%;
   border-radius: 2px;
   background-image: url('../../assest/Home/Group\ 741.png');
@@ -51,6 +49,7 @@ $azure: #13b9eb;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
+  padding: 10px;
   @media (max-width: 450px) {
     margin-top: -25%;
   }
@@ -60,7 +59,8 @@ $azure: #13b9eb;
   height: 500px;
   background-image: url('../../assest/Home/network-back_540.png');
   opacity: 0.8;
-  margin-top: -10%;
+  // margin-top: -10%;
+  padding-top: 10%;
 }
 .body-content_1 {
   display: flex;
@@ -70,7 +70,7 @@ $azure: #13b9eb;
 .body-content_1-text {
   margin: 7.5% 0 10% 0;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.13;
   align-self: center;
 }
@@ -108,12 +108,12 @@ $azure: #13b9eb;
   }
 }
 
-@media (min-width: 1200px) {
-  .body-content_card-1 {
-    min-width: 300px;
-    height: 350px;
-  }
-}
+// @media (min-width: 1200px) {
+//   .body-content_card-1 {
+//     min-width: 300px;
+//     height: 350px;
+//   }
+// }
 
 .static-card {
   margin-bottom: 120px;
@@ -173,9 +173,9 @@ $azure: #13b9eb;
     margin-top: 254px;
   }
 
-  .face-scan-adobe_1 {
-    margin-top: 440px;
-  }
+  // .face-scan-adobe_1 {
+  //   margin-top: 440px;
+  // }
 
   .faceId-content_dynamic {
     display: block;
@@ -217,7 +217,7 @@ $azure: #13b9eb;
 
 @media (max-width: 768px) {
   .header-overlap {
-    height: 150px;
+    // height: 150px;
     width: 96%;
     left: 2%;
     margin: 0px;
@@ -243,12 +243,10 @@ $azure: #13b9eb;
     width: 100%;
   }
   .header-overlap {
-    height: 160px;
+    // height: 160px;
     // width: 80%;
   }
-  .vedio-content_space {
-    margin-top: 40%;
-  }
+  
   .overlap-content {
     justify-content: center;
     text-align: center;
@@ -257,4 +255,136 @@ $azure: #13b9eb;
   .vedio-content_space {
     height: 300px;
   }
+}
+
+@media only screen and (max-width : 510px){
+  .vedio-content_space {
+    margin-top: 29% !important;
+  }
+}
+
+// UPDATED CODE
+@media only screen and (max-width: 768px) {
+  .header{
+    background-position: right;
+  }
+  .header-content{
+    width: 100%;
+    margin-right: 0 ;
+    margin-top: 20%;
+    margin-left: 0;
+    padding: 0;
+    .content-1{
+      width: 100%;
+      margin: 0;
+      height: unset;
+      text-align: center;
+      .text-style-1, .text-style-2{
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+    .content-2{
+      width: 100%;
+      padding: 0;
+      height: unset;
+      margin: 10px 0;
+      text-align: center;
+      .text-style-3{
+        width: 100%;
+        padding-left: 0;
+      }
+    }
+    .header-button{
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .button-header_1,.button-header_2{
+        margin: 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .vedio-content_space{
+    margin-top: 5%;
+  }
+  .body-content_1-text{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .body-content_1-card{
+    .static-card_1{
+      height: unset;
+      margin: 20px 20px 0 20px;
+    }
+    .phone__img{
+      display: none;
+    }
+  }
+  .body-content-1_img{
+    margin-top : 0;
+    display: none;
+  }
+
+  .brand-support{
+    .brand-content{
+      .brand-content-text_2{
+        font-size: 3rem;
+      }
+      .brand-content-text_3, .brand-content-text_1{
+        font-size: 1.5rem;
+      }
+      .brand-img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 40px 0;
+        img{
+          width: 135px;
+          height: auto;
+        }
+      }
+      .brand-content-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        .brand-content-box-img{
+          width: 70%;
+          height: auto;
+          margin-top: -20%;
+          margin-left: 0;
+        }
+        .brand-content-box_container{
+          padding-top: 0;
+          padding: 0 10%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .brand-text_quote-auth{
+            margin-top: 5%;
+            text-align: center;
+          }
+          .brand-name{
+            text-align: center;
+          }
+          .brand-btn-card{
+            margin: 4% 0 4% 0;
+            text-align: center;
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 769px) { 
 }

@@ -3,7 +3,7 @@ import './body-content.styles.scss';
 import user_privacy from '../../../assest/home-card/user privacy_user.svg';
 import ecosystem from '../../../assest/home-card/trusted ecosystem (1).svg';
 import customer from '../../../assest/home-card/Strong Customer Authentication (1).svg';
-import network_back_540 from '../../../assest/Home/network-back_540.png';
+// import network_back_540 from '../../../assest/Home/network-back_540.png';
 
 export const BodyContentCard = () => (
   <div className='body-content'>
@@ -51,6 +51,6 @@ export const BodyContentCard = () => (
         <button className='body-content_card-btn'>Learn more</button>
       </div>
     </div>
-    <img src={network_back_540} alt='bg-img-content-1' className='body-content-2_img' />
+    {/* <img src={network_back_540} alt='bg-img-content-1' className='body-content-2_img' /> */}
   </div>
 );

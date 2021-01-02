@@ -36,3 +36,32 @@
   opacity: 0.8;
   font-size: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+  .overlap-box-techno
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40%;
+  }
+  .techno-img {
+    margin-top: -48%;
+    width: 55%;
+
+  }
+  .techno-title{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .overlap-box-techno
+  {
+    flex-wrap: nowrap;
+  }
+  .techno-img {
+    margin-top: -15%;
+  }
+}

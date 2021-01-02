@@ -9,7 +9,8 @@ $azure: #13b9eb;
   flex-direction: column;
   background-image: url('../../../assest/Home/network-back_540.png');
   width: 100vw;
-  height: 80vh;
+  // height: 80vh;
+  padding: 3%; /// Rajin
   @media (max-width: 700px) {
     height: auto;
     padding: 20px 0px 20px 0px;
@@ -18,7 +19,7 @@ $azure: #13b9eb;
 .get-started {
   align-self: center;
   font-size: 3rem;
-  margin: 15% 0 0 0;
+  // margin: 15% 0 0 0;
   text-transform: capitalize;
   text-align: center;
   @media (max-width: 900px) {
